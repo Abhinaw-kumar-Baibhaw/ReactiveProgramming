@@ -17,6 +17,7 @@ public class UserService {
 
     public UserService(UserRepository userRepository) {
         System.out.println("Success");
+        System.out.println("Easy Build");
         this.userRepository = userRepository;
     }
 
